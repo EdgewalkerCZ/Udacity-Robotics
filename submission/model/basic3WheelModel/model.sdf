@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
-  <model name='basicModel'>
+  <model name='basic3WheelModel'>
     <link name='link_0'>
       <pose frame=''>0.4007 0.521134 0.074628 0 -0 0</pose>
       <inertial>
@@ -15,7 +15,6 @@
         </inertia>
         <pose frame=''>0 0 0 0 -0 0</pose>
       </inertial>
-      <gravity>1</gravity>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
       <visual name='visual'>
@@ -112,7 +111,6 @@
         </inertia>
         <pose frame=''>0 0 0 0 -0 0</pose>
       </inertial>
-      <gravity>1</gravity>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
       <visual name='visual'>
@@ -309,7 +307,6 @@
         </inertia>
         <pose frame=''>0 0 0 0 -0 0</pose>
       </inertial>
-      <gravity>1</gravity>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
       <visual name='visual'>
@@ -442,6 +439,7 @@
           <spring_reference>0</spring_reference>
           <spring_stiffness>0</spring_stiffness>
           <damping>0</damping>
+          <friction>0</friction>
         </dynamics>
       </axis>
       <physics>

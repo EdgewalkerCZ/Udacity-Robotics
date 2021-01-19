@@ -1,3 +1,0 @@
-/home/workspace/submission/script/build/CMakeFiles/edit_cache.dir
-/home/workspace/submission/script/build/CMakeFiles/hello_world.dir
-/home/workspace/submission/script/build/CMakeFiles/rebuild_cache.dir
